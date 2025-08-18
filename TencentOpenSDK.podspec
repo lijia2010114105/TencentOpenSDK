@@ -21,16 +21,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/swlfigo/TencentOpenSDK'
+  s.homepage         = 'https://github.com/lijia2010114105/TencentOpenSDK'
   
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'swlfigo' => 'swlfigo@gmail.com' }
-  s.source           = { :git => 'https://github.com/swlfigo/TencentOpenSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => ''https://github.com/lijia2010114105/TencentOpenSDK.git', :tag => s.version.to_s }
   
 
   s.ios.deployment_target = '10.0'
 
-  s.vendored_frameworks = 'Framework/TencentOpenAPI.framework'
+  s.vendored_frameworks = 'Framework/TencentOpenAPi.framework'
   s.resource = 'Framework/TencentOpenApi_IOS_Bundle.bundle'
 
 end
